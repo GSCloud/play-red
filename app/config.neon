@@ -1,4 +1,4 @@
-### GO RED
+### PLAY RED
 
 # uncomment to force debug !!!
 dbg: TRUE
@@ -51,6 +51,6 @@ routers: [
 # localization
 lang: en
 l:
-  title: "Go Red"
+  title: "Play Red"
   author: "Fred Brooker @ GS Cloud Ltd."
   noscript: "Please enable JavaScript!"
