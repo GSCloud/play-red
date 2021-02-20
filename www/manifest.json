@@ -10,9 +10,15 @@
       "src": "/img/favicon-512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "/images/maskable_icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "background_color": "#fff",
+  "background_color": "#000",
   "display": "standalone",
   "scope": "/",
   "start_url": ".",
