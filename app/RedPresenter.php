@@ -14,7 +14,7 @@ use Michelf\MarkdownExtra;
 /**
  * Mini Presenter
  */
-class MiniPresenter extends APresenter
+class RedPresenter extends APresenter
 {
     /**
      * Main controller
@@ -35,11 +35,6 @@ class MiniPresenter extends APresenter
         if ($use_cache && $output = Cache::read($cache_key, "page")) {
             header("X-Cached: true");
             return $this->setData("output", $output);
-        }
-
-        // HTML content
-        if (file_exists($file = ROOT . "/README.md")) {
-            $data["l"]["readme"] = MarkdownExtra::defaultTransform(@file_get_contents($file));
         }
 
         // output
