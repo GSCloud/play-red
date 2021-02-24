@@ -43,8 +43,7 @@ class ApiPresenter extends APresenter
      */
     public function process()
     {
-        setlocale(LC_ALL, 'cs_CZ.utf8');
-
+        //setlocale(LC_ALL, 'cs_CZ.utf8');
         $cfg = $this->getCfg();
         $d = $this->getData();
         $match = $this->getMatch();
@@ -75,11 +74,12 @@ class ApiPresenter extends APresenter
             "private" => $priv,
             "use_key" => $use_key,
             "fn" => $view,
-            "name" => "Tesseract MINI API",
+            "name" => "Tesseract API",
         ];
 
         // write to operations log
         $this->writeOpStart($extras, $api_key);
+
         // access validation
         if (($priv) && (!$user_id)) {
             return $this->proxyJsonData(401, $extras);
