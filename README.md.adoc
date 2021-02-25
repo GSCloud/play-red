@@ -2,7 +2,8 @@
 
 Demo: *https://red.mxd.cz[red.mxd.cz]* +
 Repository:
-*https://github.com/GSCloud/play-red[github.com/GSCloud/play-red]* +
+*https://github.com/GSCloud/play-red[github.com/GSCloud/play-red]*
+
 Distributed under *MIT* license.
 
 Author: Filip Oščádal aka Fred Brooker 💌 oscadal@gscloud.cz
