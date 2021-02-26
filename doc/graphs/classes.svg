@@ -140,27 +140,27 @@
 <polygon fill="none" stroke="#000000" points="464,-168 380,-168 380,-132 464,-132 464,-168"/>
 <text text-anchor="middle" x="422" y="-147.2" font-family="Courier,monospace" font-size="11.00" fill="#000000">UnitTester</text>
 </g>
-<!-- \\GSC\\CliPresenter -->
+<!-- \\GSC\\RedPresenter -->
 <g id="node11" class="node">
-<title>\\GSC\\CliPresenter</title>
+<title>\\GSC\\RedPresenter</title>
 <polygon fill="none" stroke="#000000" points="471,-114 373,-114 373,-78 471,-78 471,-114"/>
-<text text-anchor="middle" x="422" y="-93.2" font-family="Courier,monospace" font-size="11.00" fill="#000000">CliPresenter</text>
+<text text-anchor="middle" x="422" y="-93.2" font-family="Courier,monospace" font-size="11.00" fill="#000000">RedPresenter</text>
 </g>
-<!-- \\GSC\\CliPresenter&#45;&gt;\\GSC\\APresenter -->
+<!-- \\GSC\\RedPresenter&#45;&gt;\\GSC\\APresenter -->
 <g id="edge9" class="edge">
-<title>\\GSC\\CliPresenter&#45;&gt;\\GSC\\APresenter</title>
+<title>\\GSC\\RedPresenter&#45;&gt;\\GSC\\APresenter</title>
 <path fill="none" stroke="#000000" d="M375.708,-114.1095C371.1966,-116.7618 366.8664,-119.7218 363,-123 308.3348,-169.3483 267.2137,-244.685 247.8251,-284.8155"/>
 <polygon fill="none" stroke="#000000" points="244.5978,-283.4527 243.477,-293.9881 250.9232,-286.4511 244.5978,-283.4527"/>
 </g>
-<!-- \\GSC\\RedPresenter -->
+<!-- \\GSC\\CliPresenter -->
 <g id="node12" class="node">
-<title>\\GSC\\RedPresenter</title>
+<title>\\GSC\\CliPresenter</title>
 <polygon fill="none" stroke="#000000" points="471,-60 373,-60 373,-24 471,-24 471,-60"/>
-<text text-anchor="middle" x="422" y="-39.2" font-family="Courier,monospace" font-size="11.00" fill="#000000">RedPresenter</text>
+<text text-anchor="middle" x="422" y="-39.2" font-family="Courier,monospace" font-size="11.00" fill="#000000">CliPresenter</text>
 </g>
-<!-- \\GSC\\RedPresenter&#45;&gt;\\GSC\\APresenter -->
+<!-- \\GSC\\CliPresenter&#45;&gt;\\GSC\\APresenter -->
 <g id="edge10" class="edge">
-<title>\\GSC\\RedPresenter&#45;&gt;\\GSC\\APresenter</title>
+<title>\\GSC\\CliPresenter&#45;&gt;\\GSC\\APresenter</title>
 <path fill="none" stroke="#000000" d="M374.7374,-60.052C370.516,-62.6947 366.5164,-65.6687 363,-69 297.2921,-131.2505 258.89,-234.94 243.4541,-284.2766"/>
 <polygon fill="none" stroke="#000000" points="240.0749,-283.359 240.5073,-293.945 246.7708,-285.3999 240.0749,-283.359"/>
 </g>
